@@ -20,7 +20,7 @@ class Kernel extends BaseKernel implements CompilerPassInterface
 
     const SEMART_VERSION = '0.0.0-dev';
 
-    const SEMART_CANONICAL = 'SemartHris';
+    const SEMART_CANONICAL = 'HRISFlow';
 
     /**
      * @return string

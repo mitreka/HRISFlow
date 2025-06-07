@@ -1,10 +1,10 @@
-# SemartHris
+# HRISFlow
 
-SemartHris adalah Enterprise Grade Human Resources Information System (HRIS) yang dapat digunakan untuk membantu memudahkan tugas HRD Perusahaan.
+HRISFlow adalah Enterprise Grade Human Resources Information System (HRIS) yang dapat digunakan untuk membantu memudahkan tugas HRD Perusahaan.
 
 ## Tahap Pengembangan
 
-SemartHris belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
+HRISFlow belum dapat digunakan untuk produksi dan sedang dalam proses pengembangan.
 
 ## Minimum Requirement
 
@@ -49,7 +49,7 @@ SemartHris belum dapat digunakan untuk produksi dan sedang dalam proses pengemba
 
 ## Cara Install (Menggunakan Docker)
 
-- [X] Clone/Download repository `git clone https://github.com/KejawenLab/SemartHris.git` dan pindah ke folder `SemartHris`
+- [X] Clone/Download repository `git clone https://github.com/KejawenLab/HRISFlow.git` dan pindah ke folder `HRISFlow`
 - [X] Build image dengan [`docker-compose`](https://docs.docker.com/compose) dengan menjalankan `docker-compose build && docker-compose up` 
 - [X] Jalankan perintah `docker exec -it semarthris_db_1 psql -U semarthris`, bila perlu memasukkan password, masukkan `semarthris`
 - [X] Jalankan perintah `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";` untuk mengaktifkan ekstensi UUID.
@@ -61,7 +61,7 @@ SemartHris belum dapat digunakan untuk produksi dan sedang dalam proses pengemba
 
 ## Cara Install (Manual)
 
-- [X] Clone/Download repository `git clone https://github.com/KejawenLab/SemartHris.git` dan pindah ke folder `SemartHris`
+- [X] Clone/Download repository `git clone https://github.com/KejawenLab/HRISFlow.git` dan pindah ke folder `HRISFlow`
 - [X] Jalankan [Composer](https://getcomposer.org/download) Install/Update `composer update --prefer-dist -vvv`
 - [X] Setup koneksi database pada `.env`
 ```lang=bash
@@ -88,7 +88,7 @@ Untuk menjalankan unit testing, Anda cukup menjalankan perintah `php vendor/bin/
 
 ## Kontributor
 
-Proyek ini dikembangkan oleh [Muhamad Surya Iksanudin](https://github.com/ad3n) dan para [kontributor](https://github.com/KejawenLab/SemartHris/graphs/contributors)
+Proyek ini dikembangkan oleh [Muhamad Surya Iksanudin](https://github.com/ad3n) dan para [kontributor](https://github.com/KejawenLab/HRISFlow/graphs/contributors)
 untuk [KejawenLab](https://github.com/KejawenLab).
 
 ## TODO
@@ -97,7 +97,7 @@ Untuk apa saja yang sudah dan belum dikerjakan bisa melihat [TODO LIST](TODO.md)
 
 ## ROADMAP
 
-Untuk mengetahui roadmap dari aplikasi SemartHRIS bisa melihat [ROADMAP](ROADMAP.md)
+Untuk mengetahui roadmap dari aplikasi HRISFlow bisa melihat [ROADMAP](ROADMAP.md)
 
 ## Lisensi
 
@@ -121,16 +121,16 @@ Bila Anda memerlukan profesional support atau ingin mengadakan kerjasama dengan 
 
 ## Keamanan Aplikasi
 
-Jika Anda menemukan bug/celah keamaan pada aplikasi ini, Anda dapat mengirimkan email dengan subject: **[SEMARTHRIS][SECURITY] SUBJECT** ke alamat [surya.kejawen@gmail.com](mailto:surya.kejawen@gmail.com)
+Jika Anda menemukan bug/celah keamaan pada aplikasi ini, Anda dapat mengirimkan email dengan subject: **[HRISFlow][SECURITY] SUBJECT** ke alamat [surya.kejawen@gmail.com](mailto:surya.kejawen@gmail.com)
 
 ## Preview
 
-![SemartHris Profil Karyawan Preview](preview/preview.png)
+![HRISFlow Profil Karyawan Preview](preview/preview.png)
 
-![SemartHris Laporan Absensi Preview](preview/preview2.png)
+![HRISFlow Laporan Absensi Preview](preview/preview2.png)
 
-![SemartHris Detail Gaji](preview/penggajian3.png)
+![HRISFlow Detail Gaji](preview/penggajian3.png)
 
-![SemartHris API Preview](preview/api-preview.png)
+![HRISFlow API Preview](preview/api-preview.png)
 
 Butuh lebih banyak screenshot? silahkan cek folder [preview](preview)
