@@ -8,7 +8,7 @@ HRISFlow belum dapat digunakan untuk produksi dan sedang dalam proses pengembang
 
 ## Minimum Requirement
 
-- [X] PHP versi 7.1.7 dan extension yang diperlukan selama instalasi menggunakan composer
+- [X] PHP versi 8.3 dan extension yang diperlukan selama instalasi menggunakan composer
 - [X] PostgreSQL Database minimal versi 9.6
 - [X] Web Server (Apache, Nginx atau IIS)
 - [X] APCu extension (untuk Production)
